@@ -8,7 +8,7 @@ public class BallFactoryScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("SpawnBall", 0f, 5f);
+        InvokeRepeating("SpawnBall", 0f, 6f);
     }
 
     void SpawnBall()
